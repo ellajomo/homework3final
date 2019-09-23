@@ -1,0 +1,106 @@
+body{
+	font-family: "Quicksand", sans-serif;
+	background-image: url("../images/pidgeon-background.jpg");
+	background-color: #dddddd
+	background-repeat: no-repeat;
+}
+h1{
+	font-size: 2em;
+	line-height: 1.5;
+	color: #c12258;
+}
+p{
+	color: black;
+	size: 18px;
+	padding-top: 15px;
+
+}
+*:focus{
+	border: 1px solid red;
+}
+a{
+	size: 18px;
+	text-decoration: underline;
+	color: #c12258;
+}
+.colhead{
+	min-width: 150px;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #7e0830;
+}
+table{
+	border-collapse: separate;
+	border-radius: 10px;
+	border: 2px solid black;
+	border-spacing: 0;
+}
+/*.rowhead{
+	border-top: 2px solid black;
+}*/
+th.colhead: first-child{
+	border-top-left-radius:10px;}
+th.colhead: last-child{
+	border-top-right-radius:10px;
+}
+tr:last-of-type td: last-of-type{
+	border-bottom-right-radius: 10px;
+}
+tr:last-of-type th.rowhead: last-of-type{
+	border-bottom-left-radius: 10px;
+}
+td, th{
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+th: last-child {
+    border-radius: 0 10px 0 0;
+}
+tr: last-child th{
+    border-radius: 10px 10px 0 0;
+}
+tr: nth-child(even){
+	background-color: #dddddd
+}
+tr: nth-child(odd){
+	background-color: transparent;
+}
+tr:hover{
+	background-color: #fab9cf
+}
+footer{
+	color: white;
+	background-color: black;
+	min-height: 60px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+footer p{
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
